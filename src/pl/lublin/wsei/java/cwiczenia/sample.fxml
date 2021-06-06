@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.lublin.wsei.java.cwiczenia.Controller">
+   <children>
+      <Label fx:id="lbFile" layoutX="193.0" layoutY="28.0" prefHeight="18.0" prefWidth="442.0" text="Path" />
+      <Button fx:id="uploadBtn" layoutX="15.0" layoutY="24.0" mnemonicParsing="false" onAction="#uploadOnAction" prefHeight="26.0" prefWidth="167.0" text="Upload" />
+      <TableView fx:id="tblNoblistas" layoutX="59.0" layoutY="126.0" prefHeight="547.0" prefWidth="710.0">
+        <columns>
+          <TableColumn fx:id="imieColumn" prefWidth="92.19997787475586" text="Imie" />
+          <TableColumn fx:id="nazwiskoColumn" prefWidth="127.80003356933594" text="Nazwisko" />
+            <TableColumn fx:id="rokColumn" prefWidth="64.60000610351562" text="Rok" />
+            <TableColumn fx:id="kategoriaColumn" prefWidth="136.20001220703125" text="Kategoria" />
+            <TableColumn fx:id="uzasadnienieColumn" prefWidth="106.20001220703125" text="Uzasadnienie" />
+            <TableColumn fx:id="krajColumn" minWidth="0.0" prefWidth="186.5999755859375" text="Kraj" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
